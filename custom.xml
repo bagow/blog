@@ -39,7 +39,7 @@ a.menutags                             {background: #39c; color: #fff; padding: 
 </head>
 
 <body>
-TEST
+
 <!-- HEADER -->
 <div class='header'><b:section class='header-section' id='header-section' maxwidgets='1' showaddelement='no'>
      <!-- HEADER > TITLE AND DESCRIPTION -->

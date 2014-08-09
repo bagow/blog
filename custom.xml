@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html
+ xmlns='http://www.w3.org/1999/xhtml'
+ xmlns:b='http://www.google.com/2005/gml/b'
+ xmlns:data='http://www.google.com/2005/gml/data'
+ xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
-<link rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,R0lGODlhgACAAIABAAAAAP///yH5BAEAAAEALAAAAACAAIAAAAL/jI+py+0Po5y02qsA3rz7D4biuAAmiaaoyZ7qC1PtrMX2HbBGjfe2zjvQfESQq9QqKjnBhG4JXTWj1M/0WM1eaNynljhldMez7y+MJKuTSDMG+1gPhd0MD+5uR+RjexnxpIHmhpfGx7czR1dTaNYI6HUoqZgo+FgUdPm3OLlWCQc06JN557SZ0zn5SXoKdvQKyVaJWpZa9xkr6yoEuIoV6WLrSXvHpVRq2PTLeemrtuosGoPW2su5gUjM3KyCR+m0GOK5aTzK6ysWTqJKrDvNCJ/U6JUi6YwZH5p2o1qO36cOh7123DxcIRNwlDB668IgRFVl4QtlBNkUPCNMIECI/1okYrx1sYfHDo8slQupMJXBeRWDSYuSkQlFiCBfUrElMxGklozy+OmEzWSOHdGI+vw5cAs5k0NQwsRpoanROk5vqoxai2gfm46gTmjKdE7VJcWAyqg1bCzZaMO+WnzG8WiDmBLQwlUb8eoeuxu5OmLbNs7bh3ih5EsKgS9Av4QAPxQsD+5QuQ4OH9rLbjJlyJkrZ2YsV+9cs5o3c77smbTpOI43JkO9mjVPyWJUx649+3Ft27dN5Xb9OlvvEq1vjeY93BTyXIiT9/K6u7NzXtCRNp8+tLry5cnDXt8GG/tU0cylY7csfDv56ejlRF/v3Hv48ubj/wYO/nv34v7Uw/8fLl969ClWTXcBBuaffgDy19+A89l3X4M7abdfhN+AQxd7Fl74HIW3neAhHRsWGFt7CNoxoju9mUjbe/+ZduCJ1oV4FIu6HXeZhJvF2CKO7oHI0I4MchjcM/CUJuRIp7mXXU8wDklkkQgdiaRPPMro4o86VflXiiouqSUtlAGZIWbNBfnFlT2a+WBcaUIZZWoKEqLmmmwKB5pIdd5YwYsdeUmiW37CBGiggg6KSaGGHoqoQIp+qdRCaDr66KSRSlpYUJha+sam+DW056ckeSqqFaTWQ2qpl3o6Uao6KlXpoqO6GmddoTIJA621phYrpFLoymliZEZYUUrABrVlZMZ+vJorsCFR6dKPu3bjrE3Q2qisrK0e22c+PDU5bbO6dqvNt0XlRWukgLGVpqsrReZfHu5qGggrvqIrqa0JulnsmPkKi9Qs5X1YpluaHaRtV9x5Zo1yAhvYphFMiXdfq7hQzAxGYmJsWMIcoxrsx9vmKfIImZaMcsoqr8yyaQUAADs=" />
+<link rel="shortcut icon" href="data:image/vnd.microsoft.icon;base64,R0lGODlhgAC
+AAIABAAAAAP///yH5BAEAAAEALAAAAACAAIAAAAL/jI+py+0Po5y02qsA3rz7D4biuAAmiaaoyZ7qC1P
+trMX2HbBGjfe2zjvQfESQq9QqKjnBhG4JXTWj1M/0WM1eaNynljhldMez7y+MJKuTSDMG+1gPhd0MD+5
+uR+RjexnxpIHmhpfGx7czR1dTaNYI6HUoqZgo+FgUdPm3OLlWCQc06JN557SZ0zn5SXoKdvQKyVaJWpZ
+a9xkr6yoEuIoV6WLrSXvHpVRq2PTLeemrtuosGoPW2su5gUjM3KyCR+m0GOK5aTzK6ysWTqJKrDvNCJ/
+U6JUi6YwZH5p2o1qO36cOh7123DxcIRNwlDB668IgRFVl4QtlBNkUPCNMIECI/1okYrx1sYfHDo8slQu
+pMJXBeRWDSYuSkQlFiCBfUrElMxGklozy+OmEzWSOHdGI+vw5cAs5k0NQwsRpoanROk5vqoxai2gfm46
+gTmjKdE7VJcWAyqg1bCzZaMO+WnzG8WiDmBLQwlUb8eoeuxu5OmLbNs7bh3ih5EsKgS9Av4QAPxQsD+5
+QuQ4OH9rLbjJlyJkrZ2YsV+9cs5o3c77smbTpOI43JkO9mjVPyWJUx649+3Ft27dN5Xb9OlvvEq1vjeY
+93BTyXIiT9/K6u7NzXtCRNp8+tLry5cnDXt8GG/tU0cylY7csfDv56ejlRF/v3Hv48ubj/wYO/nv34v7
+Uw/8fLl969ClWTXcBBuaffgDy19+A89l3X4M7abdfhN+AQxd7Fl74HIW3neAhHRsWGFt7CNoxoju9mUj
+be/+ZduCJ1oV4FIu6HXeZhJvF2CKO7oHI0I4MchjcM/CUJuRIp7mXXU8wDklkkQgdiaRPPMro4o86Vfl
+XiiouqSUtlAGZIWbNBfnFlT2a+WBcaUIZZWoKEqLmmmwKB5pIdd5YwYsdeUmiW37CBGiggg6KSaGGHoq
+oQIp+qdRCaDr66KSRSlpYUJha+sam+DW056ckeSqqFaTWQ2qpl3o6Uao6KlXpoqO6GmddoTIJA621phY
+rpFLoymliZEZYUUrABrVlZMZ+vJorsCFR6dKPu3bjrE3Q2qisrK0e22c+PDU5bbO6dqvNt0XlRWukgLG
+VpqsrReZfHu5qGggrvqIrqa0JulnsmPkKi9Qs5X1YpluaHaRtV9x5Zo1yAhvYphFMiXdfq7hQzAxGYmJ
+sWMIcoxrsx9vmKfIImZaMcsoqr8yyaQUAADs=" />
 
 <b:include data='blog' name='all-head-content'/>
 
@@ -19,22 +39,24 @@
 </title>
 
 <b:skin><![CDATA[
-img                                    {border-width: 0px;}
-a:link, a:visited                      {color: #39c; text-decoration: none;}
-a:hover                                {text-decoration: underline}
-body                                   {color: #333; background: #fff; width: 70%; margin-left: auto; margin-right: auto;
-                                       font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif; font-size: 10pt; line-height: 1.4em;}
-.post-body                             {padding-bottom: 30px; text-align: justify;}
-.post-footer                           {font-size: 8pt; padding-bottom: 5px;}
-.post-title                            {font-size: 14pt; font-weight: bold; letter-spacing: -0.06em;}
-.header                                {text-align: center; margin: 25px;}
-.description                           {font-size: 10pt; margin-bottom: 10px;}
-.title                                 {margin: 10px 0px 10px 0px}
-a.menutags                             {background: #39c; color: #fff; padding: 5px 10px 5px 10px; margin: 5px;}
-.blog-feeds                            {display:none!important;} /* Hide 'subscribe to posts (atom)' */
-#Attribution1                          {display:none!important;} /* Hide attribution widget */
-#Navbar1                               {display:none!important;} /* Hide blogger navbar */
-#Stats1                                {display:none!important;} /* Hide blogger navbar */
+img               {border-width: 0px;}
+a:link, a:visited {color: #39c; text-decoration: none;}
+a:hover           {text-decoration: underline}
+body              {color: #333; background: #fff; width: 70%; margin-left: auto;
+                  margin-right: auto; font-family: 'Trebuchet MS', Trebuchet,
+                  Arial, sans-serif; font-size: 10pt; line-height: 1.4em;}
+.post-body        {padding-bottom: 30px; text-align: justify;}
+.post-footer      {font-size: 8pt; padding-bottom: 5px;}
+.post-title       {font-size: 14pt; font-weight: bold; letter-spacing: -0.06em;}
+.header           {text-align: center; margin: 25px;}
+.description      {font-size: 10pt; margin-bottom: 10px;}
+.title            {margin: 10px 0px 10px 0px}
+a.menutags        {background: #39c; color: #fff; padding: 5px 10px 5px 10px;
+                  margin: 5px;}
+.blog-feeds       {display:none!important;} /* Hide 'subscribe to posts' */
+#Attribution1     {display:none!important;} /* Hide attribution widget */
+#Navbar1          {display:none!important;} /* Hide blogger navbar */
+#Stats1           {display:none!important;} /* Hide blogger navbar */
 ]]></b:skin>
 </head>
 
@@ -43,7 +65,8 @@ a.menutags                             {background: #39c; color: #fff; padding: 
 <!-- HEADER -->
 <div class='header'><b:section class='header-section' id='header-section' maxwidgets='1' showaddelement='no'>
      <!-- HEADER > TITLE AND DESCRIPTION -->
-     <b:widget id='Header1' locked='true' title='Header' type='Header'><b:includable id='title'><a class='title' expr:href='data:blog.homepageUrl'><data:title/></a></b:includable><b:includable id='description'><div class='description'><data:description/></div></b:includable></b:widget>
+     <b:widget id='Header1' locked='true' title='Header' type='Header'>
+     <b:includable id='title'><a class='title' expr:href='data:blog.homepageUrl'><data:title/></a></b:includable><b:includable id='description'><div class='description'><data:description/></div></b:includable></b:widget>
      <!-- HEADER > TAGS -->
      <b:widget id='Label1' locked='false' title='Labels' type='Label'><b:includable id='main'><b:loop values='data:labels' var='label'><a class='menutags' expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a></b:loop></b:includable></b:widget>
 </b:section></div>
